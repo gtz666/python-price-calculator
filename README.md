@@ -13,5 +13,7 @@ Additionally, kivy itself is able to run in Android and IOS.
 
 Kivy codes can be converted to .apk form in Linux environment.
 
-Converting and debugging on Android devices will take too much workload. The codes runs well on PC and screen & buttons are resizable, 
+Converting and debugging on Android devices will take too much workload, completing it is not available before the deadline for this assignment. 
+
+The codes runs well on PC and screen & buttons are resizable, 
 so it should be good in any mobile device.
