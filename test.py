@@ -23,3 +23,6 @@ class TestCase(GraphicUnitTest):
 
 if __name__ == '__main__':
     unittest.main()
+
+# Citation:
+# https://kivy.org/doc/stable/contribute-unittest.html
