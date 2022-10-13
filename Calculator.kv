@@ -32,9 +32,10 @@
         Custom_Button:
             text: "3"
             on_press: entry.text += self.text
+
         Custom_Button:
-            text: "+"
-            on_press:entry.text += self.text
+            text: "Delete"
+            on_press: calculator.delete(entry.text)
 
     BoxLayout:
         spacing: 10
@@ -47,10 +48,10 @@
         Custom_Button:
             text: "6"
             on_press: entry.text += self.text
-        Custom_Button:
-            text: "-"
-            on_press: entry.text += self.text
 
+        Custom_Button:
+            text: "Add"
+            on_press:entry.text += "+"
     BoxLayout:
         spacing: 10
         Custom_Button:
@@ -62,27 +63,35 @@
         Custom_Button:
             text: "9"
             on_press: entry.text += self.text
+
         Custom_Button:
-            text: "*"
-            on_press: entry.text += self.text
+            text: "Remove"
+            on_press: entry.text += "-"
 
     BoxLayout:
         spacing: 10
         Custom_Button:
+            text: "."
+            on_press: entry.text += self.text
+
+        Custom_Button:
             text: "0"
             on_press: entry.text += self.text
+
         Custom_Button:
-            text: "Clear"
-            on_press: entry.text = ""
-        Custom_Button:
-            text: "="
-            on_press: calculator.calculate(entry.text)
-        Custom_Button:
-            text: "/"
+            text: "*"
             on_press: entry.text += self.text
+
+        Custom_Button:
+            text: "Tax"
+            on_press: calculator.tax(entry.text)
 
     BoxLayout:
         Custom_Button:
             font_size: 24
-            text: "Remove"
+            text: "AC"
             on_press: entry.text = ""
+
+        Custom_Button:
+            text: "done"
+            on_press: calculator.calculate(entry.text)
