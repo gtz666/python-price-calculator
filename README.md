@@ -1,10 +1,12 @@
 # CSC301-Assignment2
 This repo is for CSC301 Assignment 2, contributed by Tingzhou Gu and Jiabao Leung
 
-Following will be the instuctions on how to use the applications
- - The application is written in python and kivy \- (a python framework). 
+The application is written in python and kivy (a python framework). 
 
-# Instructions
+Following is the instruction on how to run the application, and our reports.
+
+
+## Instructions
 
 User is able to run the .py code along with the .kv code.
 
@@ -17,6 +19,17 @@ Converting and debugging on Android devices will take too much workload, complet
 
 The codes runs well on PC and screen & buttons are resizable, 
 so it should be good in any mobile device.
+
+Because we don't have the .apk file, we can test the aplication on any PC or laptop devices. The codes is built in PyCharm IDE and kivy virtual enviornment.
+
+To run the codes, here are some advices:
+
+- Installed kivy and python 
+- Installed kivy package
+- Open Python IDE (In this case, we use pycharm)
+- Set up kivy's virtual environment
+- Run the application.py file (There is no need to run the .kv file separately)
+- For testing, run test.py
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
