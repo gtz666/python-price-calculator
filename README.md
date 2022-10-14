@@ -56,6 +56,13 @@ Due to our relative comfort with Python development, Kivy and BeeWare were both 
 ### Database Idea
 When this application is in the real world, for example, the users are the cashier in a supermarket. It is useful to have a database for them, and it makes this application more functional. We can have a map with goods id: price, as the database. And inputting id in the price calculator will automatically get corresponded price. It will be easier for the actual user to have access on prices without remembering prices of goods, to use this application.
 
+## Summary
+We are doing a mobile application for the checkout price calculator for this assignment. We had three code file in our repo: application.py, Calculator.kv, and test.py. We chose python and kivy (a python GUI interpreter) to develop the application because of our maturity of python and ease of development, and we use a kivy unit test for testing. Since we are doing a mobile application, we were making sure the tech stack we chose is suitable for mobile devices, and screen size is resizable to fit any mobile device. There are no backends and frontends differences, we are focusing on the GUI design and adding different functionality, which is all frontend techniques. We have also considered some database ideas. For example, as we explained above, we could have a map of id: price for the database. This increases usability of the application, users only need a list of goods ids to use this application. 
+
+This application is also easier for testing, because the codes are mainly in python and kivy, we added some arithmetic error checking for the python file, and we added a unit test on the graphical side. We could run test.py to test the kivy file. Maintaining this application is also easier, because the application does not require any Internet connection to run, users can simply update if there is a new version of the application. The application is runnable on our PC devices. We have listed some instructions on how to run is application. 
+
+There are some nessesary assumptions for this application: Users have to input prices in the calculator. Since we didn't have a .apk form of the application, running the program requires the python and kivy environment to run the application. This situation can be improved by converting the files into .apk form and debugging on an Android device. This will only require an Android device to run the application and there is no need for any python and kivy environment.
+
 
 #### References
 Apple Inc. (2022). Swift. Apple Developer. Retrieved October 14, 2022, from https://developer.apple.com/swift/#great <br>
